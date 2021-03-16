@@ -1,10 +1,11 @@
+import styles from '../styles/Navbar.module.css'
 import { Navbar, Nav } from 'react-bootstrap'
 
 const Navigation = () => {
   return (
     <>
       <div>
-        <Navbar fixed="top" bg="light" expand="lg">
+        <Navbar  fixed="top" bg="light" expand="lg">
           <Navbar.Brand href="/">Perry Theobald Jr</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -1,6 +1,6 @@
 import styles from '../styles/Layout.module.css'
 import Navigation   from './Navbar'
-
+import Sidebar from './Sidebar'
 const Layout = ({ children }) => {
     return (
         <>
@@ -8,8 +8,7 @@ const Layout = ({ children }) => {
         <div className={styles.container}>
             <main className={styles.main}>{children}
                 </main>
-            
-            
+                <Sidebar/>
         </div>
         </>
     )
