@@ -1,15 +1,11 @@
 .sidebar {
-  
+  display: flex;
   min-width: 22em;
   width: 22em;
   border-top: gainsboro solid 1px;
     margin-top: 0;
     padding-top: 0;
    
-
-  
-
- 
 
 
 }

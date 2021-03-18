@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
+
 import styles from '../styles/Layout.module.css'
 
 export default function Home() {
@@ -11,12 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <Navbar />
-    <div class='row'>
-      <div class='col-sm'>
-    <Sidebar/>
-      </div>
-    </div>
+   
+  
    
 
     </div>
