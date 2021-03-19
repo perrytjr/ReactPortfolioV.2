@@ -1,15 +1,18 @@
-import styles from '../styles/Layout.module.css'
+
+
+import SideBar from './Sidebar'
 import Navigation   from './Navbar'
-import Sidebar from './Sidebar'
+
 const Layout = ({ children }) => {
     return (
         <>
-                <Navigation/>
-        <div className={styles.container}>
-            <main className={styles.main}>{children}
-                </main>
-                <Sidebar/>
-        </div>
+         <Navigation/>
+             <SideBar/>
+
+                 <main>{children}
+                    </main>
+               
+        
         </>
     )
 }
