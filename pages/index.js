@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>My Portfolio</title>
       </Head>
-<div className='grid grid-cols-2'>
+<div className='grid grid-cols-2 bg-gray-200 bg-opacity-90'>
 
 <div>
   <SideBar/>

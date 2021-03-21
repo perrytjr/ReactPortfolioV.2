@@ -7,7 +7,7 @@ const ContactIcons = ({ children }) => {
     return (
         <>
 
-            <ul  className=' flex flex-row mt-3 m-3 w-4 '>
+            <ul  className=' flex flex-row mt-3  w-4 '>
                 {data.map((s) => (
                     <li className='mr-5 opacity-70' key={s.label}>
                         <a  href={s.link}>

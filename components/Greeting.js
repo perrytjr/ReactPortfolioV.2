@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Greeting = () => {
     return (
-        <div className='flex flex-col  bg-green-50'>
+        <div className='flex flex-col mt-20  bg-gray-100 bg-opacity-90'>
                <article>
         <header>
           <div>

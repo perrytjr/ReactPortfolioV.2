@@ -10,14 +10,14 @@ export const Navigation = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-gray-800 p-3 '>
+      <nav className='flex items-center flex-wrap  bg-gray-100 bg-opacity-90 p-3 '>
         <Link href='/'>
-            <a className=' text-xl text-white font-bold no-underline inline-flex items-center p-2 mr-4 text-decoration:none'>
+            <a className=' text-xl text-black text-opacity-80 no-underline inline-flex items-center p-2 mr-4 text-decoration:none'>
               Perry Theobald Jr
             </a>
         </Link>
         <button
-          className=' inline-flex p-3 hover:bg-gray-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+          className=' inline-flex p-3 hover:bg-gray-300 rounded lg:hidden text-black  ml-auto hover:text-black  outline-none'
           onClick={handleClick}
         >
           <svg
@@ -43,22 +43,22 @@ export const Navigation = () => {
         >
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/about'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  '>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded   text-black  text-opacity-80  items-center justify-center  '>
                 About
               </a>
             </Link>
             <Link href='/projects'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center '>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black  text-opacity-80 items-center justify-center '>
                 Projects
               </a>
             </Link>
             <Link href='/skills'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center '>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-opacity-80 items-center justify-center '>
                Skills
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center '>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-opacity-80  items-center justify-center '>
                 Contact
               </a>
             </Link>
