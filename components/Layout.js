@@ -1,18 +1,23 @@
 
-
+import Greeting from './Greeting'
 import SideBar from './Sidebar'
-import Navigation   from './Navbar'
+import Navigation from './Navbar'
+
 
 const Layout = ({ children }) => {
     return (
         <>
-         <Navigation/>
-            
+            <Navigation />
+         
+            <main>{children}
+            </main>
 
-                 <main>{children}
-                    </main>
-               
-         <SideBar/>
+
+
+
+
+
+
         </>
     )
 }

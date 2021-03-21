@@ -7,10 +7,10 @@ import Image from 'next/image';
 
 const SideBar = () => (
 
-  <section className='flex flex-col mt-10 h-auto'>
-    <section >
+  <section className=' Flex flex-col mt-10 h-screen bg-green-100 '>
+    <section className=' '>
       <Link href="/" >
-        <Image src="/images/profile.jpg" alt="" className='rounded-full flex items-center '
+        <Image src="/images/profile.jpg" alt="" className='rounded-full  items-center '
           width={130}
           height={130}
           layout="intrinsic"
