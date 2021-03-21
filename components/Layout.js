@@ -7,12 +7,12 @@ const Layout = ({ children }) => {
     return (
         <>
          <Navigation/>
-             <SideBar/>
+            
 
                  <main>{children}
                     </main>
                
-        
+         <SideBar/>
         </>
     )
 }
